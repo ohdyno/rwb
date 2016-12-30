@@ -11,7 +11,6 @@ public class Matcher {
       return false;
     }
 
-    // Check that each entry within expected +/- delta
     return allEntriesWithinExpectedDelta(expected, actual, delta);
   }
 
